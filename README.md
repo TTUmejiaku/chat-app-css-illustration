@@ -24,7 +24,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./design/MyDesign/Desktop-View__Chat-App-CSS-Illustration.png)
-![](./design/MyDesign/Mobile-View__Chat-App-CSS-Illustration.png)
+![](./design/MyDesign/Mobile-View_Chat-App-CSS-Illustration.png)
 
 ### Links
 
