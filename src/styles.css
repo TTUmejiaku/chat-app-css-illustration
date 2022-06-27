@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Rubik", sans-serif;
+  }
+}
+
+.top-bg {
+  @apply w-96 h-3/4 rounded-b-full bg-gradient-to-b from-bgLightMag to-bgLightVio fixed top-0 left-0 -z-10;
+}
+
+.bottom-bg {
+  @apply w-96 h-3/4 rounded-t-full bg-appBgLitGraVio fixed bottom-0 right-0 -z-10;
+}
+
+.phone-wrapper {
+  @apply max-w-sm bg-secWhite mx-auto mt-32 rounded-t-6xl rounded-b-4xl p-6 shadow-lg relative z-20;
+}
+
+.three-dot {
+  @apply w-1 bg-secWhite p-px rounded-full m-0.5;
+}
+
+.chat-left-wrapper {
+  @apply w-3/5 bg-chatLeftBg rounded-lg p-2 mb-2;
+}
+
+.chat-left-wrapper p {
+  @apply text-textModerateVioChatLeft text-xs;
+}
+
+.chat-right-wrapper {
+  @apply bg-secWhite rounded-lg p-2 ml-auto mt-3;
+}
+
+.chat-right-wrapper p {
+  @apply text-textDesDkVioChatRight text-xs;
+}
+
+.radio-btn {
+  @apply p-2.5 rounded-full bg-none border-solid border-radioBtnOutlineVLightMag border mr-4;
+}
+
+.price-wrapper {
+  @apply bg-gradient-to-r from-bgLightMag to-bgLightVio w-4/5 rounded-lg p-2 text-secWhite flex flex-row items-center;
+}
+
+.price-wrapper p {
+  @apply text-xs pr-8 text-appBgLitGraVio;
+}
