@@ -1005,16 +1005,16 @@ html {
     display: flex;
   }
 
+  .md\:w-1\/4 {
+    width: 25%;
+  }
+
   .md\:w-2\/5 {
     width: 40%;
   }
 
   .md\:w-2\/4 {
     width: 50%;
-  }
-
-  .md\:w-1\/4 {
-    width: 25%;
   }
 
   .md\:max-w-lg {
