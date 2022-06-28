@@ -716,14 +716,14 @@ html {
   border-style: solid;
 }
 
-.bg-secWhite {
-  --tw-bg-opacity: 1;
-  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
-}
-
 .bg-appBgLitGraVio {
   --tw-bg-opacity: 1;
   background-color: hsl(270 20% 96% / var(--tw-bg-opacity));
+}
+
+.bg-secWhite {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -859,6 +859,10 @@ html {
   --tw-gradient-to: hsl(264, 100%, 61%);
 }
 
+.bottom-bg--gray {
+  background: hsl(276, 100%, 99%);
+}
+
 .bottom-bg {
   position: fixed;
   bottom: 0px;
@@ -868,8 +872,6 @@ html {
   width: 24rem;
   border-top-left-radius: 9999px;
   border-top-right-radius: 9999px;
-  --tw-bg-opacity: 1;
-  background-color: hsl(270 20% 96% / var(--tw-bg-opacity));
 }
 
 .phone-wrapper {

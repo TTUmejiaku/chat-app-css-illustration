@@ -12,8 +12,12 @@
   @apply w-96 h-3/4 rounded-b-full bg-gradient-to-b from-bgLightMag to-bgLightVio fixed top-0 left-0 -z-10;
 }
 
+.bottom-bg--gray {
+  background: hsl(276, 100%, 99%);
+}
+
 .bottom-bg {
-  @apply w-96 h-3/4 rounded-t-full bg-appBgLitGraVio fixed bottom-0 right-0 -z-10;
+  @apply w-96 h-3/4 rounded-t-full fixed bottom-0 right-0 -z-10;
 }
 
 .phone-wrapper {
